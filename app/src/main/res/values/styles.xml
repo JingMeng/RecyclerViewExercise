@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- App的主色调,Toolbar等空间的背景颜色 -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--&lt;!&ndash; App的暗色调，StatusBar和NavigationBar的背景颜色 &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--&lt;!&ndash; 一般是字体颜色，EditText的下划线，光标等的颜色 &ndash;&gt;-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <!-- 设置状态栏透明 4.4效果为状态栏消失，其他布局顶上来 -->
+    <!-- 5.0效果为状态懒依然存在，但透明 -->
+    <style name="TransparentStatusTheme" parent="AppTheme">
+
+    </style>
+
+</resources>

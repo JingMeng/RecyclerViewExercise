@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/music"
+        android:title="音乐"
+        android:icon="@mipmap/ic_launcher">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_launcher"
+                android:title="播放"
+                android:id="@+id/play">
+            </item>
+            <item
+                android:id="@+id/pause"
+                android:title="暂停"
+                android:icon="@mipmap/ic_launcher"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/movie"
+        android:title="电影"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item
+        android:id="@+id/game"
+        android:title="游戏"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+</menu>

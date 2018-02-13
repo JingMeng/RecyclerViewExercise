@@ -1,0 +1,2 @@
+include ':app'
+println "In app, gradle id is "+gradle.hashCode()
